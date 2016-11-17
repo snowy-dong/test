@@ -1,0 +1,44 @@
+  *{
+  	padding: 0;
+  	margin: 0;
+  }
+   body {
+    height: 2000px;
+    background-color: #fff;
+   }
+   #dropButton {
+    width:45px;
+    height:45px;
+    border-radius: 50px;
+    background-color: #000;
+    opacity: 0.3;
+    position: fixed;
+    color: #fff;
+    line-height: 45px;
+    text-align: center;
+    right: 0;
+    bottom: 30px;
+	transition: width 0.5s , left 0.5s,top 0.5s;
+	-moz-transition: width 0.5s , left 0.5s,top 0.5s;
+	-webkit-transition: width 0.5s , left 0.5s,top 0.5s;	
+	-o-transition: width 0.5s , left 0.5s,top 0.5s;
+	overflow: hidden;	
+   }
+   ul{
+   	position: absolute;
+   	left: 0;
+    height:45px;
+    display: inline-block;
+   }
+    li{
+   	list-style: none;
+   	display: inline-block;
+   	width: 45px;
+   }
+   .fa{
+   	margin-top: 14px;
+   	font-size: 18px;
+   }
+   .active{
+   	width: 300px;
+   }
